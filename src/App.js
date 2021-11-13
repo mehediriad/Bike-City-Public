@@ -14,6 +14,8 @@ import Shipping from './Pages/Shipping/Shipping';
 import About from './Pages/About/About/About';
 import Contact from './Pages/Contact/Contact/Contact';
 import Congratulations from './Pages/Shared/Congratulations/Congratulations';
+import NotFound from './Pages/NotFound/NotFound';
+
 
 
 function App() {
@@ -54,6 +56,9 @@ function App() {
           <PrivetRoute path="/shipping/:bikeId">
             <Shipping></Shipping>
           </PrivetRoute>
+          <Route path="*">
+            <NotFound></NotFound>
+          </Route>
         </Switch>
         
       </BrowserRouter>
