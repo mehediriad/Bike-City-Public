@@ -59,7 +59,7 @@ const ManageProducts = () => {
 
 
                             <div id="confirem-box">
-                                <div className="yes-no-box">
+                                <div className="yes-no-box fixed-top">
                                      <div>
                                         <p>Are You Sure?</p>
                                         <button onClick={()=>handleProductDelete(product._id)} className="btn btn-info">Yes</button>

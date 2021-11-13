@@ -76,7 +76,7 @@ const MyOrders = () => {
                                     <button className="btn btn-danger" onClick={handleConfirmPopUp}><FontAwesomeIcon icon={faTrash}/></button>
                                 </td>
                                 <div id="confirem-box">
-                                    <div className="yes-no-box">
+                                    <div className="yes-no-box fixed-top">
                                         <div>
                                         <p>Are You Sure?</p>
                                         <button onClick={()=>handleDeleteMyOrder(myOrder._id)} className="btn btn-info">Yes</button>
