@@ -8,7 +8,7 @@ import './MyOrders.css'
 const MyOrders = () => {
     const [myOrders , setMyOrders] = useState([]);
     const {user}= useAuth();
-    const url = `http://localhost:5000/orders/${user.email}`;
+    const url = `https://protected-mountain-42023.herokuapp.com/orders/${user.email}`;
     useEffect(()=>{
         fetch(url)
         .then(res => res.json())
