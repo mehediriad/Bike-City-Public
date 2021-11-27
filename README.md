@@ -2,6 +2,18 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Bike City
+
+## Live Site : https://bikecity-2a1fc.web.app/
+
+## Basic InforMation
+
+### Bike City is a Modern Online Bike Selling Website. This Website Template is fully Responsive.
+### Modern Design for a Sleek look.
+### Full Stack Development
+### Allow Firebase Authentication.
+### Use Mongodb Database.
+
 ## Available Scripts
 
 In the project directory, you can run:
